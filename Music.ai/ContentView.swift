@@ -1,21 +1,19 @@
 //
 //  ContentView.swift
-//  Music.ai
+//  MusicPlayer
 //
-//  Created by Karan Haresh Lokchandani on 12/11/24.
-//
+//  Created by SwiftieDev on 09/01/2024.
+//  MARK: SwiftieDev
 
 import SwiftUI
+import AVKit
 
+// Updated ContentView
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            PlayerView()
         }
-        .padding()
     }
 }
 
