@@ -2,8 +2,6 @@
 //  ContentView.swift
 //  MusicPlayer
 //
-//  Created by SwiftieDev on 09/01/2024.
-//  MARK: SwiftieDev
 
 import SwiftUI
 import AVKit

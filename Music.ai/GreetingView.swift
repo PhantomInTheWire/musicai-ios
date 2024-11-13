@@ -121,7 +121,7 @@ struct GreetingView: View {
             
             // Navigation to LoadingAnimationView
             NavigationLink(
-                destination: LoadingAnimationView(),
+                destination: LoadingAnimationView(topic: musicPrompt, genre: "pop"),
                 isActive: $shouldShowLoadingAnimation
             ) {
                 EmptyView()
